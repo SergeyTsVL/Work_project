@@ -20,5 +20,6 @@ from djangoProject.blog.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index)
+    path(' ', index)
 ]
+# python manage.py runserver
